@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Activity, ArrowDownRight, ArrowUpRight, BarChart3, CalendarDays, Check, ChevronDown, Clock3, Dumbbell, Flame, LogOut, Plus, Search, Settings2, Sparkles, Trash2, TrendingUp, X } from 'lucide-react';
+import { Activity, ArrowDownRight, ArrowUpRight, BarChart3, CalendarDays, Check, ChevronDown, Clock3, Dumbbell, Flame, LogOut, Plus, Search, Settings2, Sparkles, Target, Trash2, TrendingUp, X } from 'lucide-react';
 
 const API = '/api/workouts';
 const dateKey = (value) => new Date(value).toISOString().slice(0, 10);
